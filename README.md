@@ -63,12 +63,19 @@ To run the analysis script, you need to have the R Console or RStudio open.
 
 1. Unzip dataset into directory. Rename folder to **dataset**.
 
+
 2. Set the working directory to the current directory: 
 ```setwd("path_to_current_dir");```.
-3. Load the source file:
+
+
+3. Load the source file: 
 ```source("run_analysis.R")```.
+
+
 4. Execute the run_analysis function: 
 ```run_analysis();```.
+
+
 5. If the script runs successfully, a file called ```tidy_data.txt``` will be generated. This is the tidy data set output of the analysis.
 
 
